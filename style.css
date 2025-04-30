@@ -1,0 +1,272 @@
+*{
+    background-color: #222831;
+    font-family: oswald;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+}
+.navbar{
+    height: 5%;
+    width: 100%;
+    margin-bottom: 50px;
+    margin-top: 0px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    border-bottom: 2px solid #393E46;
+    z-index: 10;
+}
+.nav-left{
+    margin-left: -200px;
+}
+.left{
+    color: #00ADB5;
+    font-weight: bolder;
+    font-size: 22px ;
+}
+.left #dev{
+    color: #EEEEEE;
+}
+.nav-right,button{
+    color: #EEEEEE;
+    border: none;
+    font-weight: bolder;
+    font-size: 22px;
+}
+.nav-right{
+    margin-right: -200px;
+    
+}
+.nav-right button{
+    margin-right: 20px;
+    
+}
+.nav-right button:hover{
+    transform:scale(1.1) ;
+    cursor: pointer;
+    color: #00ADB5;
+    border-radius: 5px;
+}
+
+.main{
+    padding-top: 100px;
+    display: flex;
+    height: 100% ;
+}
+.me{
+    width: 40%;
+    height: 40rem;
+    /* background-color: aqua; */
+    margin: 20px;
+    color: black;
+    box-sizing: border-box;
+    padding-top: 100px ;
+    padding-left: 150px ;
+}
+.me #txt{
+    font-size: 40px;
+    font-weight: bold;
+    color: #00ADB5;
+}
+.me #name{
+    font-size: 60px ;
+    font-weight: bold;
+    color: #EEEEEE;
+}
+.me #abtme{
+    font-size: 20px;
+    font-weight: 400;
+    color: #EEEEEE;
+}
+.extra{
+    width: 60%;
+    height: 40rem;
+    /* background-color: blue; */
+    margin: 20px;
+    z-index: 1;
+    
+}
+.about-me{
+    width: 100%;
+    height: 40rem;
+}
+.abt-1{
+    width: 90%;
+    height: 100px;
+    color: #393E46;
+    background-color: #00ADB5;
+    font-weight: bolder;
+    font-size: xx-large;
+    align-content: center;
+    padding-left: 10%;
+    
+}
+#head{
+    position: relative;
+    top: 25px;
+    left: 170px;
+    background-color: #00ADB5;
+    
+}
+.content{
+    display: flex;
+    
+}
+.cont{
+    width: 50%;
+    height: 32rem;
+    /* background-color: cornflowerblue; */
+    margin: 40px;
+    font-size: 25px;
+    color: #EEEEEE;
+    word-spacing: 5px;
+    line-height: 50px;
+}
+.photo{
+    width: 50%;
+    height: 32rem;
+    /* background-color: cadetblue; */
+    margin: 20px;
+    color: #EEEEEE;
+}
+.photo img{
+    margin-left: 170px;
+    margin-top: 75px;
+    width: 50%;
+    height: 80%;
+    transform: scale(1.2);
+}
+.projects{
+    width: 100%;
+    /* background-color: blueviolet; */
+    margin-top: 100px;
+}
+.heading{
+    font-size: 40px;
+    height: 100px;
+    background-color: #00ADB5;
+    font-weight: bolder;
+    font-size: xx-large;
+    color: #393E46;
+    margin-bottom: 30px;
+    align-content: center;
+    padding-left: 10%;
+    width: 90%;
+
+}
+#head2{
+    position: relative;
+    top: 25px;
+    left: 170px;
+    background-color: #00ADB5;
+}
+.project1{
+    display: flex;
+}
+.clone-img{
+    width: 25%;
+    height: 20rem;
+    margin: 40px;
+    /* background-color: brown; */
+    
+    
+}
+.img-spot{
+    width: 55%;
+    height: 55%;
+    margin-top: 100px;
+    margin-left: 80px;
+    cursor: pointer;
+}
+.img-spot:hover{
+    transform: scale(1.1);
+    transition: 0.8s ease-in 0.3s;
+}
+.clone{
+    width: 50%;
+    height: 25rem;
+    margin: 40px;
+    /* background-color: blue; */
+    font-size: x-large;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 7rem;
+    color: #EEEEEE ;
+    margin-left: 150px;
+}
+.contacts{
+    width: 100%;
+    /* background-color: blueviolet; */
+    margin-top: 100px;
+    height: 700px;
+}
+.heading1{
+    font-size: 40px;
+    height: 100px;
+    background-color: #00ADB5;
+    font-weight: bolder;
+    font-size: xx-large;
+    color: #393E46;
+    margin-bottom: 30px;
+    align-content: center;
+    padding-left: 10%;
+    width: 90%;
+}
+#head3{
+    position: relative;
+    top: 25px;
+    left: 170px;
+    background-color: #00ADB5;
+}
+.contact2{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: -45px;
+}
+.contact2 i{
+    margin: 15px;
+    font-size:50px;
+    color: #EEEEEE;
+}
+.contact1{
+    color: #EEEEEE;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 150px;
+    margin-top: 150px;
+}
+.contact1 h1{
+    text-align: center;
+    
+}
+#git:hover{
+    color: #663399;
+    transform: rotate(360deg);
+    transition: 0.5s;
+}
+#linkin:hover{
+    color:#0e76a8;
+    transform: rotate(360deg);
+    transition: 0.5s;
+}
+#insta:hover{
+    color:purple;
+    transform: rotate(360deg);
+    transition: 0.5s;
+}
+.copyright{
+    width: 100%;
+    height: 35px;
+    padding-top: 10px;
+    background-color: #00ADB5;
+    color: #393E46;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+}
